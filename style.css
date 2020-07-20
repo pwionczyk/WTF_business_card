@@ -6,3 +6,64 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+.page {
+  min-height: 100vh;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2C2141;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.business-card {
+  width: 624px;
+  background-color: #F8F8F8;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+.business-card__info {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin: 0 0 0 32px;
+}
+.business-card__picture {
+  margin: 0;
+  padding: 0;
+}
+.business-card__header {
+  margin: 0;
+  padding: 0;
+}
+.business-card__name {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: normal;
+}
+.business-card__position {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+}
+.business-card__description {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+}
+.business-card__social-links {
+
+}
+.business-card__link {
+  text-decoration: none;
+  color: #E20613;
+}
+.important {
+  color: #ED6D05;
+}
